@@ -181,3 +181,16 @@ footer{
     line-height: 47px;
 }
 
+.bx-wrapper, .bx-viewport{
+    height: 400px !important;
+}
+
+.bx-wrapper img{
+    height: 400px;
+    width: 100%;
+}
+
+#slider{
+    box-shadow: 5px 5px 10px black;
+}
+

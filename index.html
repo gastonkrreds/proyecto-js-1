@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/style.css"/>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Slider  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+    <!-- moment js  -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/es.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    
+    <!-- Mis Scripts -->
+     <script src="js/main.js"></script>
     <title>Portafolio 1 js</title>
 </head>
 <body>
@@ -31,24 +44,16 @@
         <!-- Slider -->
 
         <div id="slider">
-
+            <div class="bxslider">
+                <div><img src="img/superman.jpg" title="superman" /></div>
+                <div><img src="img/batman.jpg" title="batman" /></div>
+                <div><img src="img/spiderman1.jpg" title="spiderman" /></div>
+              </div>
         </div>
         <!-- Contenido -->
         <section id="content">
             <div id="posts">
-                <article class="post">
-                    <h2>Titulo del articulo</h2>
-                    <span class="date">fecha</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, unde itaque eum adipisci eligendi reprehenderit sapiente, tempora pariatur omnis aliquam aut a labore. Laudantium laborum illum, neque similique facilis optio illo omnis harum minima distinctio sequi quas quasi corporis possimus?</p>
-                    <a href="" class="button-more">Leer más</a>
-                </article>
-
-                <article class="post">
-                    <h2>Titulo del articulo</h2>
-                    <span class="date">fecha</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, unde itaque eum adipisci eligendi reprehenderit sapiente, tempora pariatur omnis aliquam aut a labore. Laudantium laborum illum, neque similique facilis optio illo omnis harum minima distinctio sequi quas quasi corporis possimus?</p>
-                    <a href="" class="button-more">Leer más</a>
-                </article>
+                <!-- Cargar posts desde JSON -->
             </div>
             
             
@@ -65,17 +70,17 @@
                         <label for="name">
                             Nombre
                         </label>
-                        <input type="text" name="name" id="">
+                        <input type="text" name="name" id="name">
                         <br>
                         <label for="email">
                             Email
                         </label>
-                        <input type="email" name="email" id="">
+                        <input type="email" name="email" id="email">
                         <br>
                         <label for="password">
                             Contraseña
                         </label>
-                        <input type="password" name="password" id="">
+                        <input type="password" name="password" id="password">
                         <br>
                         <input type="submit" value="Entrar">
                     </form>
