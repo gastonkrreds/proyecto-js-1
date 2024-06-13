@@ -9,29 +9,31 @@
 }
 
 body{
-    background: url("../img/fondo.jpg");
-    background-attachment: fixed;
+    /* background: url("../img/fondo.jpg");
+    background-attachment: fixed; */
+    background-color: #333;
 }
 
 #global{
-    width: 65%;
+    width: 75%;
     margin: 0px auto;
     margin-top: 30px;
     padding: 40px;
-    background: #fff5C9;
+    background: white;
     box-shadow: 8px 8px 20px black;
 }
 
 #logo{
-    font-size: 28px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    font-size: 60px;
+    font-family: "Bangers", system-ui;
+    /* text-shadow: 5px 5px 10px black; */
+    color: #333;
     letter-spacing: 4px;
-    background-color: #9f1600;
-    border-radius: 8px;
-    box-shadow: 5px 5px 6px black;
+    /* background-color: #333; */
+    /* border-radius: 8px;
+    box-shadow: 5px 5px 6px black; */
     text-align: center;
-    width: auto;
+    width: 800px;
     height: 80px;
     line-height: 85px;
     margin-bottom: 20px;
@@ -40,16 +42,18 @@ body{
 }
 
 #menu{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #9f1600;
+    font-family: "Comic Neue";
+    font-weight: 700;
+    background-color: #333;
     width: 100%;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 #menu ul{
     line-height: 46px;
     list-style: none;
+    text-align: center;
 }
 
 #menu ul li{
@@ -59,8 +63,7 @@ body{
 }
 
 #menu ul li:hover{
-    color: black;
-    background-color: #6ed1f5;
+    background-color: black;
     
 }
 
@@ -172,7 +175,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     height: 47px;
-    background: rgba(51, 51, 51, 0.70);
+    background: rgba(30, 30, 30, 0.6);
     margin: 0px auto;
     width: 65%;
     padding-left: 20px;
