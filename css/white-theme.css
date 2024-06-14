@@ -1,0 +1,73 @@
+body{
+    /* background: url("../img/fondo.jpg");
+    background-attachment: fixed; */
+    background-color: #333;
+}
+
+#global{
+    background: white;
+    box-shadow: 8px 8px 20px black;
+}
+
+#logo{
+    background-color: white;
+    color: #333;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+#menu{
+    background-color: #333;
+}
+
+#menu ul li:hover{
+    text-shadow: 0 0 10px white;
+    background-color: black;
+    
+}
+
+.post p{
+    color: black;
+}
+
+#slider{
+    box-shadow: 5px 5px 10px black;
+}
+
+.post h2{
+    color: #333;
+}
+
+#sidebar h4 span{
+    background: white;
+}
+
+.button-more{
+    background-color: gray;
+}
+
+.button-more:hover{
+    background-color: gray;
+}
+
+.label{
+    color: black;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]{
+    box-shadow: 1px 1px 5px #6ed1f5;
+    border: 2px solid #6ed1f5;
+}
+
+form input[type="submit"]{
+    background-color: #6ed1f5;
+    border: 2px solid #6ed1f5;
+    box-shadow: 1px 1px 3px black;
+}
+
+footer{
+    color: white;
+    background: rgba(30, 30, 30, 0.6);
+}
+

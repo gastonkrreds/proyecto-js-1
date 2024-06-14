@@ -1,0 +1,79 @@
+body{
+    /* background: url("../img/fondo.jpg");
+    background-attachment: fixed; */
+    background-color: #333;
+}
+
+#global{
+    background: black;
+    box-shadow: 8px 8px 20px black;
+}
+
+#logo{
+    background-color: #8e0808;
+    color: white;
+    box-shadow: rgba(252, 67, 0, 0.48) 6px 2px 16px 0px, rgba(128, 1, 1, 0.8) -6px -2px 16px 0px;
+}
+
+#menu{
+    background-color: #8e0808;
+}
+
+#menu ul li:hover{
+    text-shadow: 0 0 10px white;
+    background-color: black;
+}
+
+.post h2{
+    color: #8e0808;
+}
+
+.post p{
+    color: white;
+}
+
+#slider{
+    box-shadow: rgba(252, 67, 0, 0.48) 6px 2px 16px 0px, rgba(128, 1, 1, 0.8) -6px -2px 16px 0px;
+}
+
+#sidebar h4 span{
+    background: black;
+}
+#sidebar p{
+    color: white;
+}
+
+.button-more{
+    background-color: #8e0808;
+}
+
+.button-more:hover{
+    box-shadow: rgba(252, 67, 0, 0.48) 6px 2px 16px 0px, rgba(128, 1, 1, 0.8) -6px -2px 16px 0px;
+}
+
+.label{
+    color: white;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]{
+    box-shadow: 1px 1px 5px #8e0808;
+    border: 2px solid #8e0808;
+}
+
+form input[type="submit"]{
+    background-color: #8e0808;
+    border: 2px solid #8e0808;
+    box-shadow: 1px 1px 3px black;
+}
+
+form input[type="submit"]:hover{
+    box-shadow: rgba(252, 67, 0, 0.48) 6px 2px 16px 0px, rgba(128, 1, 1, 0.8) -6px -2px 16px 0px;
+}
+
+footer{
+    color: white;
+    background: rgba(30, 30, 30, 0.6);
+}
+

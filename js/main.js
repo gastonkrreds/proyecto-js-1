@@ -46,4 +46,14 @@ $(document).ready(function(){
             `;
             $("#posts").append(post);
         });
+
+    // Selector de tema
+    var theme = $("#theme");
+
+    $("#to-white").click(function(){
+        theme.attr("href","css/white-theme.css")
+    });
+    $("#to-dark").click(function(){
+        theme.attr("href","css/dark-theme.css")
+    });
 });
