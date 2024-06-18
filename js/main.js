@@ -42,7 +42,7 @@ $(document).ready(function(){
                     <span class="date">${item.date}</span>
                     <p>${item.content}</p>
                     <a href="" class="button-more">Leer más</a>
-                </article>
+            </article>
             `;
             $("#posts").append(post);
         });
@@ -56,4 +56,15 @@ $(document).ready(function(){
     $("#to-dark").click(function(){
         theme.attr("href","css/dark-theme.css")
     });
+
+    //scroll arriba de la web
+    $(".subir").click(function(e){
+        e.preventDefault();
+
+        $("html, body").animate({
+            scrollTop: 0
+        }, 800);
+
+        return false;
+    })
 });
